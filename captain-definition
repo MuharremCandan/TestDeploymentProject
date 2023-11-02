@@ -1,0 +1,10 @@
+{
+    "schemaVersion":2,
+    "dockerfileLines":[
+        "FROM steebchen/nginx-spa:stable",
+        "WORKDIR /app",
+        "COPY . ./",
+        "EXPOSE 80",
+        "CMD [\"nginx\"]"
+    ]
+}
