@@ -1,46 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your One-Page Website</title>
   <style>
-        body {
+    body {
+      font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      background: linear-gradient(45deg, #3498db, #e74c3c);
-      overflow: hidden;
+      background-color: #f2f2f2;
     }
 
-
-    .welcome-container {
-      text-align: center;
+    header {
+      background-color: #333;
       color: #fff;
-      font-family: Arial, sans-serif;
-      animation: fadeIn 2s ease-in-out;
+      text-align: center;
+      padding: 20px;
     }
 
-    @keyframes fadeIn {
-      0% {
-        opacity: 0;
-        transform: scale(0.5);
-      }
+    section {
+      padding: 20px;
+    }
 
-      100% {
-        opacity: 1;
-        transform: scale(1);
-      }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
     }
   </style>
 </head>
 
 <body>
-  <div class="welcome-container">
-    <h1>Welcome Test Deployment. Testing 555 2023-11-03</h1>
-    <p>This is a simple animated welcome page.</p>
-  </div>
+  <header>
+    <h1>Welcome to Your Website</h1>
+  </header>
+
+  <section>
+    <h2>About Us</h2>
+    <p>This is a simple one-page website created with HTML. You can replace this content with your own information.</p>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <p>You can contact us at <a href="mailto:youremail@example.com">youremail@example.com</a>.</p>
+  </section>
+
+  <footer>
+    &copy; 2023 Your Website
+  </footer>
 </body>
 
 </html>
